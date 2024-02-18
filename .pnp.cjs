@@ -41,7 +41,6 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:18.2.0"],\
           ["tailwindcss", "npm:3.4.1"],\
-          ["ts-jest", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:29.1.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -2483,16 +2482,6 @@ const RAW_RUNTIME_STATE =
           ["electron-to-chromium", "npm:1.4.673"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:8126a959d46e6def6d7f2497c47970a23a94adac85f5be1df9be290c674503b9bcbe0dc057e2741ee222cc2a8a3b9f584b20c3a9eb5ce085704d99fc5d94514c#npm:1.0.13"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["bs-logger", [\
-      ["npm:0.2.6", {\
-        "packageLocation": "./.yarn/cache/bs-logger-npm-0.2.6-7670f88b66-e6d3ff8269.zip/node_modules/bs-logger/",\
-        "packageDependencies": [\
-          ["bs-logger", "npm:0.2.6"],\
-          ["fast-json-stable-stringify", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5651,15 +5640,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["lodash.memoize", [\
-      ["npm:4.1.2", {\
-        "packageLocation": "./.yarn/cache/lodash.memoize-npm-4.1.2-0e6250041f-192b2168f3.zip/node_modules/lodash.memoize/",\
-        "packageDependencies": [\
-          ["lodash.memoize", "npm:4.1.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["lodash.merge", [\
       ["npm:4.6.2", {\
         "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-d0ea2dd009.zip/node_modules/lodash.merge/",\
@@ -5719,15 +5699,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["make-dir", "npm:4.0.0"],\
           ["semver", "npm:7.6.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["make-error", [\
-      ["npm:1.3.6", {\
-        "packageLocation": "./.yarn/cache/make-error-npm-1.3.6-ccb85d9458-b86e5e0e25.zip/node_modules/make-error/",\
-        "packageDependencies": [\
-          ["make-error", "npm:1.3.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6469,7 +6440,6 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:18.2.0"],\
           ["tailwindcss", "npm:3.4.1"],\
-          ["ts-jest", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:29.1.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -7608,56 +7578,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/ts-interface-checker-npm-0.1.13-0c7b064494-9f7346b9e2.zip/node_modules/ts-interface-checker/",\
         "packageDependencies": [\
           ["ts-interface-checker", "npm:0.1.13"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["ts-jest", [\
-      ["npm:29.1.2", {\
-        "packageLocation": "./.yarn/cache/ts-jest-npm-29.1.2-22ab85b861-5e40e7b933.zip/node_modules/ts-jest/",\
-        "packageDependencies": [\
-          ["ts-jest", "npm:29.1.2"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:29.1.2", {\
-        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-869c5530f7/0/cache/ts-jest-npm-29.1.2-22ab85b861-5e40e7b933.zip/node_modules/ts-jest/",\
-        "packageDependencies": [\
-          ["ts-jest", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:29.1.2"],\
-          ["@babel/core", null],\
-          ["@jest/types", null],\
-          ["@types/babel-jest", null],\
-          ["@types/babel__core", null],\
-          ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.12"],\
-          ["@types/jest__types", null],\
-          ["@types/typescript", null],\
-          ["babel-jest", null],\
-          ["bs-logger", "npm:0.2.6"],\
-          ["esbuild", null],\
-          ["fast-json-stable-stringify", "npm:2.1.0"],\
-          ["jest", "virtual:76769dbbd74701e05c5ad61004c05b59a1946eb30df25babd78a36beb6eda962129e3d9f32aa9cbb568f8030bb2dadb3b275e3dfb3a888b7eb3b146d2da112aa#npm:29.7.0"],\
-          ["jest-util", "npm:29.7.0"],\
-          ["json5", "npm:2.2.3"],\
-          ["lodash.memoize", "npm:4.1.2"],\
-          ["make-error", "npm:1.3.6"],\
-          ["semver", "npm:7.6.0"],\
-          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
-          ["yargs-parser", "npm:21.1.1"]\
-        ],\
-        "packagePeers": [\
-          "@babel/core",\
-          "@jest/types",\
-          "@types/babel-jest",\
-          "@types/babel__core",\
-          "@types/esbuild",\
-          "@types/jest",\
-          "@types/jest__types",\
-          "@types/typescript",\
-          "babel-jest",\
-          "esbuild",\
-          "jest",\
-          "typescript"\
         ],\
         "linkType": "HARD"\
       }]\
